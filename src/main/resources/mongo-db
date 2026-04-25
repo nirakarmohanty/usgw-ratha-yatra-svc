@@ -1,0 +1,15 @@
+username - nirakarmohanty_db_user
+password  - xRevo0tWKTUgJ3Tj
+
+
+connection string
+
+mongodb+srv://nirakarmohanty_db_user:xRevo0tWKTUgJ3Tj@cluster0.29ki9ox.mongodb.net/
+mongodb+srv://nirakarmohanty_db_user:Rathayatra@2026@cluster0.29ki9ox.mongodb.net/
+
+MongoDB Atlas is a cloud-based database service that allows you to create, manage, and scale MongoDB databases in the cloud. To connect to your MongoDB Atlas cluster using the provided connection string, you can use the following code snippet in your application:
+
+https://cloud.mongodb.com/v2/69d7b8deaf68d7a59f82b475#/explorer/69d7b98fc1141a2aa7e8320d/usgw-ratha-yatra/contributions/find
+
+userID - nirakarmohanty@gmail.com
+Password- Rathayatra@2026

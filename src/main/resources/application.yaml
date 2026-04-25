@@ -1,0 +1,26 @@
+server:
+  port: 8181
+spring:
+  application:
+    name: ratha.yatra
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/ratha_yatra
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+  sql:
+    init:
+      mode: always
+      platform: postgres
+  jackson:
+    serialization:
+      indent_output: true
+    deserialization:
+      fail-on-unknown-properties: false
