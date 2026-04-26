@@ -35,12 +35,12 @@ public class AdminController {
     }
 
     @GetMapping("/is-admin")
-    public ResponseEntity<Boolean> isAdmin(@RequestParam("email") String email) {
+    public ResponseEntity<String> isAdmin(@RequestParam("email") String email) {
         if (email == null || email.isBlank()) {
             return ResponseEntity.badRequest().build();
         }
         boolean isAdmin = adminService.isAdminByEmail(email);
-        return ResponseEntity.ok(isAdmin);
+        return ResponseEntity.ok("Is this Admin : "+isAdmin);
     }
 
     @GetMapping("/hello")

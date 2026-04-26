@@ -1,8 +1,9 @@
 package com.usgw.rathayatra.svc.dao.impl;
 
 import com.usgw.rathayatra.svc.dao.AdminDAO;
-import com.usgw.rathayatra.svc.dao.AdminRepository;
+
 import com.usgw.rathayatra.svc.model.Admin;
+import com.usgw.rathayatra.svc.repository.AdminRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

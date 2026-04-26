@@ -1,4 +1,4 @@
-package com.usgw.rathayatra.svc.dao;
+package com.usgw.rathayatra.svc.repository;
 
 import com.usgw.rathayatra.svc.model.Admin;
 import org.springframework.data.jpa.repository.JpaRepository;
